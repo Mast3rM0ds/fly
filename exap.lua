@@ -17,7 +17,7 @@ Tab1:Button{
 	Name = "Die",
 	Description = nil,
 	Callback = function()
-      game.Players.LocalPlayer.Character.Humanoid.Health = 0
+      game.Players.LocalPlayer.Character.Humanoid.Health = 1
     end 
 }
 
@@ -26,7 +26,7 @@ Tab1:Toggle{
     StartingState = false,
     Description = nil,
     Callback = function(state) 
-           game.Players.LocalPlayer.Character.Humanoid.Health += 100
+           game.Players.LocalPlayer.Character.Humanoid.Health = 100
     end
 }
 
